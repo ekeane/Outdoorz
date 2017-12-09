@@ -1,0 +1,50 @@
+<head>
+  <title>Outdoorz</title>
+  <link rel="stylesheet" type="text/css" href="mainpage.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <link rel="icon" href="Assets\tree-favicon.png">
+  <script src="mainpage.js"> </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIZtskdrsdzBLp07pCA7gORO2z1TjeMvA&callback=initMap"> </script>
+</head>
+
+<body>
+  <div id="background-image-text-box">
+    <img src="Assets\forest_background_final.jpg" alt="Trees in forest" style="width: 100%">
+    <h1 id="title"> Outdoorz </h1>
+    <h2 class="centered"> Lower Mainland <br/>Hiking and Camping Information</h1>
+    </div>
+
+    <div id="outdoorz-explanation">
+      <table style="width: 100%" id="table-1">
+        <tr>
+          <th class="sub-headers">Hiking</th>
+          <th class="sub-headers">Camping</th>
+          <th class="sub-headers">Our Personal Favourites</th>
+        </tr>
+        <tbody>
+          <tr style="text-align: center; width: 33%;">
+            <td style="width: 33%;"><img src="Assets\hike_150x150px.png"> </td>
+            <td> <img src="Assets\Campsite_150x150px.png"></td>
+            <td style="width: 38%;"> <a href="hiking.html" id="hike-button">Hiking &#x25BA;</a></td>
+          </tr>
+          <tr style="text-align: center; width: 33%;">
+            <td style="width: 33%;"> </td>
+            <td></td>
+            <td> </td>
+          </tr>
+          <tr style="text-align: center; width: 33%;">
+            <td><br/>Look for the hike logo on the map below. Click on the<br/> hike icon on the map to learn more about that hike!  </td>
+            <td><br/><br/> Interested in camping in the Lower Mainland? Go check out the map below to find camping spots you might be interested in!</td>
+            <td style="width: 38%;"><a href="camping.html" id="camping-button">Camping &#x25BA;</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="map"></div>
+  </body>
+
+  <footer>
+    <div class="footer-box"><p style="position: relative; top: 10px;"> <a href="works_cited.html">Works Cited</a> | Made with <span style="color: red;"> &#x2764; </span>	at UBC</p> </div>
+  </footer>
